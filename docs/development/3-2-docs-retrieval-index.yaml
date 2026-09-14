@@ -6964,6 +6964,7 @@ pages:
     - {slug: "troubleshooting-shared-package-import-issues", text: "Troubleshooting Shared Package Import Issues", level: 3}
     - {slug: "how-test-isolation-works", text: "How Test Isolation Works", level: 3}
     - {slug: "submitting-a-pull-request", text: "Submitting a pull request", level: 2}
+    - {slug: "label-driven-fleet-workflow", text: "Label-driven fleet workflow", level: 2}
     - {slug: "maintainer-guides", text: "Maintainer guides", level: 2}
     - {slug: "development-workflow", text: "Development workflow", level: 2}
     - {slug: "release-process", text: "Release Process", level: 2}
@@ -7079,7 +7080,7 @@ pages:
   - path: "docs/development/how-to/manage-issue-tracker.md"
     title: "Managing the Issue Tracker"
     divio_type: "how-to"
-    abstract: "Conventions for the Spec Kitty issue tracker: epics vs meta-trackers, sub-issue parenting, blocked_by dependencies, triage (type, severity, blockers), and the label taxonomy."
+    abstract: "Conventions for the Spec Kitty issue tracker: epics vs meta-trackers, sub-issue parenting, dependencies, triage, the label taxonomy, and the label-driven fleet workflow."
     anchors:
     - {slug: "functional-epics-versus-meta-trackers", text: "Functional epics versus meta-trackers", level: 2}
     - {slug: "parent-and-child-are-native-sub-issue-links", text: "Parent and child are native sub-issue links", level: 2}
@@ -7099,6 +7100,10 @@ pages:
     - {slug: "pr-workflow-labels-for-pull-requests-not-issues", text: "PR-workflow labels — for pull requests, not issues", level: 3}
     - {slug: "lifecycle-community-labels", text: "Lifecycle & community labels", level: 3}
     - {slug: "grouping-labels-documented-above", text: "Grouping labels (documented above)", level: 3}
+    - {slug: "label-driven-fleet-workflow", text: "Label-driven fleet workflow", level: 2}
+    - {slug: "the-status-lifecycle-issues", text: "The `status:*` lifecycle (issues)", level: 3}
+    - {slug: "admission-from-label-to-vm", text: "Admission: from label to VM", level: 3}
+    - {slug: "pr-lane-labels-review-and-landing", text: "PR-lane labels (review and landing)", level: 3}
     - {slug: "see-also", text: "See also", level: 2}
   - path: "docs/development/how-to/pr-landing.md"
     title: "Landing Contributor PRs: The Maintainer Runbook"
